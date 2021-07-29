@@ -1,0 +1,843 @@
+
+/* FONTS */
+
+
+
+
+@font-face {
+    font-family: 'telefonicabold';
+    src: url('../fonts/telefonica-bold-webfont.woff2') format('woff2'),
+         url('../fonts/telefonica-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'telefonicalight';
+    src: url('../fonts/telefonica-light-webfont.woff2') format('woff2'),
+         url('../fonts/telefonica-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'telefonicaregular';
+    src: url('../fonts/telefonica-regular-webfont.woff2') format('woff2'),
+         url('../fonts/telefonica-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* END FONTS */
+
+
+
+
+/* Menu Styles */
+
+ul.navbar-nav li a:hover {
+ 
+    border: none;
+    color: #5bc600 !important;
+    text-decoration: underline;
+
+}
+
+.navbar.menu-estilos {
+
+    background-color: #fff;
+    min-height: 90px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.col.nav-bar {
+    
+    vertical-align: middle;
+
+}
+
+
+nav {
+
+    min-height: 60px; 
+    background: #fff;
+    
+}
+
+ul.navbar-nav  li a {
+    color: #9f9f9f !important;
+    font-weight: normal;
+}
+
+
+ul.nav.nav-tabs  li a:hover {
+    color: #5bc600 !important;
+    text-decoration: underline;
+}
+
+
+
+#accordion button {
+
+    color: #4f545a;
+}
+
+button.btn-warning, button.btn-primary, a.btn-primary  {
+background-color:  #5bc500 !important;
+color: #fff !important;
+
+border: none;
+}
+
+
+
+form.estilo-form1 {
+
+    width: 50%;
+    background-color: #00a9e0;
+    padding: 20px;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5); 
+    border-color: transparent;
+}
+
+/* END Menu Styles */
+
+
+
+
+
+.btn.acordeon-movi {
+
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.navbar {
+
+    padding: 0px;
+}
+
+
+.nav-link {
+    display: block;
+    padding: .5rem 0.8rem;
+}
+
+/*****************  Estilos Planes  *****************/
+.planes-bloque1 { background-color: #00a9e0; color: #fff; }
+
+.titulo-paquetes {
+
+    text-align: center;
+    color: #86888c;
+    margin-top: 15px;
+}
+
+.planes-section1 h2.titulo1, h4.subtitulo1 {
+
+color: #86888c;
+
+}
+
+
+.planes-section1  h4.subtitulo-blanco {
+
+color: #86888c;
+
+
+}
+
+
+
+.planes-titulos1 {
+
+    text-align: center;
+    font-size: 38px;
+}
+
+.planes-subtitulos2 {
+
+text-align: center;
+font-size: 28px;
+}
+
+.icon-alineacion {
+   width: 16px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+i.celeste-movi-icon {
+   
+
+    color: #00a9e0;
+    text-align: center;
+} 
+
+i.verde-movi-icon {
+   
+
+    color: #5bc500;
+    text-align: center;
+} 
+
+.subtitulo3-planes {
+
+      color: #00a9e0;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b6b7b7;
+}
+
+.subtitulo3-planes-verde {
+
+      color: #5bc500;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b6b7b7;
+}
+
+.listas-planes-celeste {
+    color: #b6b7b7;
+    text-align: center;
+}
+
+.listas-planes-verde {
+    color: #b6b7b7;
+    text-align: center;
+}
+
+ul.listas-planes-verde li:first-child {
+ color: #5bc500;
+}
+
+ul.listas-planes-celeste li:first-child {
+ color: #00a9e0;
+}
+
+.listas-planes-acordeones {
+
+    color: #b6b7b7;
+    text-align: center;
+}
+
+
+
+span.ivames-planes  {
+    
+  
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+.titulo-exclusivo-online {
+
+    padding: 25px 0;
+}
+
+
+p.precio-plan {
+
+    color: #fff;
+
+margin-right: auto;
+margin-left: auto;
+width: 220px;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+padding: 15px 0;
+margin-top: 10px;
+text-align: center;
+
+
+}
+
+
+.precio-plan-planes-celeste {
+
+     font-family: 'telefonicabold' !important;
+
+   font-size: 35px;
+
+    color: #00a9e0;
+
+margin-right: auto;
+margin-left: auto;
+width: 220px;
+border-top: 1px solid #b6b7b7;
+border-bottom: 1px solid #b6b7b7;
+margin-bottom: 30px;
+text-align: center;
+
+
+}
+
+
+.precio-plan-planes-verde{
+ font-family: 'telefonicabold' !important;
+
+   font-size: 35px;
+    color: #5bc500;
+
+margin-right: auto;
+margin-left: auto;
+width: 220px;
+border-top: 1px solid #b6b7b7;
+border-bottom: 1px solid #b6b7b7;
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.precio-plan-planes-blanco {
+ font-family: 'telefonicabold' !important;
+
+   font-size: 35px;
+    color: #fff;
+
+margin-right: auto;
+margin-left: auto;
+width: 220px;
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.background-mobile-planes {
+
+    background-image: url("../images/curba_planes.png");
+    background-repeat: no-repeat;
+      background-position: bottom;
+      color: #fff;
+   
+  }
+
+
+/*************    Final Estilos Planes     ****************/
+
+/***********  Estilos Generales **********/
+
+body, p, h1, h2, h3, h4, h5, h6, section, article {
+  font-family: 'telefonicaregular' !important;
+}
+
+
+.titulo-form-pc {
+
+  font-size: 22px;
+
+
+}
+
+.titulo-form-pc-iphone {
+color: #fff;
+  font-size: 22px;
+
+
+}
+
+
+.form-pc {
+
+color: #00a9e0;
+margin-right: auto;
+margin-left: auto;
+width: 300px;
+background-color: #fff;
+padding: 15px;
+border-radius: 15px;
+}
+
+.form-pc-iphone {
+
+color: #00a9e0;
+margin-right: auto;
+margin-left: auto;
+width: 300px;
+background-color: #5bc600;
+padding: 15px;
+border-radius: 15px;
+}
+
+
+
+.form-control
+ {
+display: block;
+width: 100%;
+height: calc(1.5em + .75rem + 2px);
+padding: .375rem .75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #333;
+background-color: transparent;
+background-clip: padding-box;
+border: 1px solid #00a9e0;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control.form-pc-campos-iphone {
+border: 1px solid #fff !important;
+
+}
+
+.form-control.form-pc-campos::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #00a9e0;
+}
+.form-control.form-pc-campos::-moz-placeholder { /* Firefox 19+ */
+  color: #00a9e0;
+}
+.form-control.form-pc-campos:-ms-input-placeholder { /* IE 10+ */
+  color: #00a9e0;
+}
+.form-control.form-pc-campos:-moz-placeholder { /* Firefox 18- */
+  color: #00a9e0;
+}
+
+
+.form-control.form-pc-campos-iphone::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.form-control.form-pc-campos-iphone::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.form-control.form-pc-campos-iphone:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.form-control.form-pc-campos-iphone:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.iphone-sec1 {
+
+   background-color: #fff;
+
+}
+
+
+.franja-descuento1{
+ 
+ font-weight: bold;
+
+}
+
+
+.franja-descuento2 {
+ 
+ font-size: 1.7em;
+
+}
+
+
+
+
+
+.margen-divs > img {
+padding-bottom: 15px;
+padding-top: 15px;
+
+}
+
+.estilos-contenido-caracteristicas  {
+
+    font-weight: bold;
+}
+
+.cuotas-mes {
+    
+    font-weight: bold;
+    font-size: 3em;
+
+}
+
+
+.gris {
+
+
+    background-color: #d3d4d3 ;
+    color: #fff;
+
+}
+
+.verde-movi {
+   background-color: #5bc500; 
+    color: #fff;
+    border: none;
+}
+
+
+.grey-textos {
+color: #78787a;
+
+}
+
+.celeste-movi {
+
+    background-color: #00a9e0; 
+    color: #fff;
+    border: none;
+
+
+}
+
+.btn.loquiero {
+
+    padding-left:  50px;
+    padding-right:  50px;
+    padding-top: 5px;
+    border-radius: 0.7rem !important;
+
+
+}
+
+.btn.loquiero.verde-movi:hover {
+
+color: #fff;
+background-color: #92dc66;
+border-color: #92dc66;
+
+} 
+
+.btn.loquiero.celeste-movi:hover {
+color: #fff;
+background-color: #9cdbff;
+}
+
+
+ul {
+
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+.distribuidor {
+
+    background-color: #d3d4d3; 
+    color: #fff; 
+    height: 29px;
+
+}
+
+.ofertas-online {
+
+    background-color: #5bc500; 
+    color: #fff; 
+    height: 29px;
+   padding-top: 5px;
+
+}
+
+.ofertas-online-celeste {
+         background-color: #00a9e0; 
+      color: #fff; 
+    height: 29px;
+   padding-top: 2px;
+   text-align: center;
+}
+
+
+ li img.img-regalo {
+
+    margin-bottom: 10px;
+}
+
+/***********  Final Estilos Generales **********/
+
+/* Estilos Modal */
+
+.modalpc-llamanos2 {
+    font-size: 1.4em;
+}
+
+/* Final Estilos del Modal */
+
+
+/***********  Estilos Huawei **********/
+
+.margen-divs {
+
+padding-bottom: 32px;
+text-align: center !important;
+
+}
+
+.caracteristicas  {
+font-size: 1rem;
+line-height: 1.2;
+margin-top: 25px;
+}
+
+.caracteristicas h4, .caracteristicas p {
+
+    text-align: center;
+}
+
+
+
+.bg-light {
+
+    background-color: #fff !important;
+
+}
+
+.samsung-sec1 {
+
+background-color: #00a9e0;
+}
+
+.estilos-contenido-caracteristicas-samsung {
+
+  color: #fff;
+}
+
+.caracteristicasST-samsung {
+
+    color: #fff !important;
+}
+
+.titulo-caracteristicas-samsung {
+
+    color: #fff !important;
+}
+
+/*  Estilos Div Principal */
+
+.blanco1 {
+
+    color: #fff;
+    background-color: #00a9e0;
+  
+}
+
+.samsung-sec1 {
+
+  color: #fff;
+}
+
+.blanco1 ul li {
+
+    list-style: none;
+}
+
+/* END Estilos Div Principal */
+
+
+
+ section.huawei-cont2, section.planes-section1 {
+
+    background-color: #fff;
+    color: #333;
+ }
+
+section.huawei-cont3 {
+
+      background: url('../images/huawei/fondo-sec3.jpg') repeat; 
+
+}
+
+.btn.btn-primary.celeste-movi {
+
+  background-color: #00a9e0 !important; 
+   color: #fff;
+
+
+}
+
+
+hr.separador-celular1 {
+
+  border-top: 2px solid rgba(0,0,0,.1)
+}
+
+
+hr.separador-celular-blanco {
+
+  border-top: 2px solid #FFF;
+}
+
+
+
+
+/********** Final Estilos Huawei **********/
+
+/********** Estilos Textos General**********/
+
+.titulo1 {
+
+    font-weight: bold;
+    text-align: center;
+       margin-top: 25px;
+}
+
+.subtitulo1 {
+
+    text-align: center;
+      
+}
+
+
+ul.listas-estilos-celular1  {
+
+    text-align: center;
+}
+
+/********** Final EstilosTextos  **********/
+
+
+
+.nav-tabs {
+    border: none;
+}
+
+ .nav-item.show .nav-link,  .nav-link.active {
+
+    color: #5bc600 !important;
+   text-decoration: underline;
+   border: none;
+}
+
+
+
+/******  Estilos Footer  *****/
+
+.stick-tel {
+
+position: fixed;
+bottom: 0;
+z-index: 1030;
+bottom: 30px;
+right:0;
+
+}
+
+
+/******  Final Estilos Footer  *****/
+
+
+/****** Estilos Modal  *****/
+
+.modal-movi {
+
+    text-align: center;
+    padding: 30px 30px; 
+
+
+}
+
+h5.modal-title {
+
+font-weight: normal;
+color: #495057;
+ font-size: 18px;
+
+}
+
+.modal-header {
+    border: none;
+}
+
+i.modal-gracias  {
+
+color: #5bc500;
+text-align: center;
+
+}
+
+/******  Final Estilos Modal  *****/
+/****** estilos santi ***/
+
+.ancho-controlado {max-width:60%}
+p.precio-plan2 {
+
+    color: #78787a;
+
+margin-right: auto;
+margin-left: auto;
+width: 220px;
+border-top: 1px solid #78787a;
+border-bottom: 1px solid #78787a;
+padding: 15px 0;
+margin-top: 10px;
+text-align: center;
+
+}
+
+
+/* Responsive Breakpoints */
+
+/* De tabletas en adelante */
+@media (min-width: 768px) { 
+
+
+.planes-bloque1 {
+
+  background-image: url('../images/fondo-planes-pc1.jpg');
+  background-repeat: repeat;
+  color: #fff;
+}
+
+
+.background-mobile-planes {
+
+ background-image: none;
+  color: #78787a;
+ }
+
+.blanco1 {
+
+  background-image: url('../images/fondo-huaw1.jpg');
+  background-repeat: repeat;
+}
+
+.samsung-sec1 {
+
+   background-image: url('../images/fondo-samsung-pc1.jpg');
+
+}
+
+
+
+
+.estilos-contenido-caracteristicas-samsung {
+
+  color: #00a9e0;
+}
+
+.caracteristicasST-samsung {
+
+    color: #00a9e0 !important;
+}
+
+.titulo-caracteristicas-samsung {
+
+    color: #00a9e0 !important;
+}
+
+ }
+ 
+ .nombre-equipo-modal {color:#E9426D; font-size:26px; font-weight:bold}
+ .dejar-datos {font-size:22px}
+
+
+ /* End Responsive Breakpoints */
